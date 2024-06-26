@@ -1,0 +1,25 @@
+#include <stdio.h>   //     stdio.h stands for Standard Input Output -Some of the functions in stdio.h are printf, scanf ,getc, putc - this is multi line comment
+#include <stdlib.h> //     stdlib.h stands for Standard Library. Some of the functions in stdlib.h are malloc ,  free ,abort , exit ,etc. - used to allocate memory
+
+/ use single slash for blocks of comments
+such as this - the beginning and end /
+
+int main()  {
+    int age = 25;
+    printf("Age: %d", age);
+
+    age = 31;
+    printf("\nNew age: %d", age);
+}
+
+
+
+int main()  {
+    int firstNumber = 33;                                   / end lines with a ; - enclose code in Curly brackets
+    printf("firstNumber = %d", firstNumber);                /variables with  two words are lowerUpper - can not start with number or certain words like if which are keywords
+
+    int secondNumber = firstNumber;
+    printf("\n secondNumber = %d", secondNumber);           / \n is a new line or return  -%d is a decimal interger
+}
+
+return 0;                                                /used to terminate the program
